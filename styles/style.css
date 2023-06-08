@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.tittle {
+  color: aliceblue;
+  font-weight: 700;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+.input {
+  margin-left: 15px;
+  border: white 3px solid;
+}
+.input button {
+  height: 28px;
+  width: 30px;
+  border-style: none;
+  border-right: white 3px solid;
+  background-color: #266bff;
+}
+.input input {
+  margin: 0;
+  height: 28px;
+  background-color: #266bff;
+  border-color: aliceblue;
+  border-style: none;
+}
+section {
+  margin: 30px;
+}
+.one {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+}
+.one .front {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-weight: 100;
+}
+.history p {
+  font-size: larger;
+}
+.icon button {
+  width: 50px;
+  height: 30px;
+  border: 2px solid black;
+}
+.logo img {
+  width: 30px;
+}
+.content {
+  display: flex;
+  margin-left: 20px;
+}
+.content .history {
+  height: fit-content;
+}
+.content .site {
+  opacity: 50%;
+  width: 100px;
+  margin-left: 20px;
+}
+.icon {
+  position: absolute;
+  right: 30px;
+  box-sizing: border-box;
+
+}
+@media (max-width: 920px) {
+  .content p {
+    max-width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content p {
+    max-width: 150px;
+  }
+}
